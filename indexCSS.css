@@ -12,6 +12,11 @@ header {
 	position: relative;
 }
 
+.HomePageOverview{
+	margin: 30px;
+	text-align: center;
+}
+
 /* NAVIGATION SYSTEM / MENU LINKS*/
 
 .navigationMenu {
