@@ -2,3 +2,28 @@
 	margin: 0;
 	padding: 0;
 }
+
+/* NAVIGATION SYSTEM / MENU LINKS*/
+
+.navigationMenu {
+    /* for the overall menu */
+    margin-top: 30px;
+    text-align: center;
+}
+
+.navigationMenu li {
+    /* for each item...*/
+	display: inline-block; /*Lines up across from left to right*/
+    margin-left: 20px;
+    padding: 5px 20px;
+}
+
+.navigationMenu li a{
+    /* for each item when hovered over with mouse*/
+    padding: 5px 20px;
+}
+
+.navigationMenu li a:hover {
+    /* for each item when hovered over with mouse*/
+	background-color:rgb(187, 146, 240);
+}

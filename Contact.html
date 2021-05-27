@@ -7,10 +7,36 @@
         <!-- Linking the CSS file for styling-->
         <link rel="stylesheet" href="ContactCSS.css">
 
-        <h1>About</h1>
+        <ul class="navigationMenu">
+            <!-- Menu links setup -->
+            <li><a href="C:\Users\duviv\Documents\TTP_ProgramWork\PortfolioWebsite\Home.html">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="C:\Users\duviv\Documents\TTP_ProgramWork\PortfolioWebsite\About.html">About Me</a></li>
+            <li><a href="C:\Users\duviv\Documents\TTP_ProgramWork\PortfolioWebsite\Contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Header -->
+        <h1>Contact</h1>
     </head>
 
     <body>
 
+        <div class = "GeneralText">
+            <p>You can contact me at duvivierbri@gmail.com</p>
+        </div>
+
+        <div class = "ContactForm">
+            <form action="EmailAction.php" method="sendmail">
+                <!-- Fill out form to contact me -->
+                <input type="text" class="inputField" name="name" placeholder="Your Name"><br>
+                <input type="text" class="inputField" name="email" placeholder="Your E-Mail"><br>
+                <textarea class="inputField" name="message" placeholder="Your Message"></textarea><br>
+
+                <!-- Buttons -->
+                <input type="submit" class = "submitButton" value="Send">
+                <input type="reset" class = "clearButton" value="Clear">
+            </form>
+        </div>
     </body>
+
 </html>
