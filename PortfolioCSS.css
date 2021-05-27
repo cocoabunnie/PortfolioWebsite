@@ -3,15 +3,20 @@
 	padding: 0;
 }
 
+h1{
+	text-align: center;
+	margin: 20px;
+}
+
+p{
+	text-align: center;
+	margin: 20px;
+}
+
 body{
     background-image: url("general_bg.png");
 	background-position: center;
 	background-size: cover;
-}
-
-h1{
-    text-align: center;
-    padding: 10px;
 }
 
 /* NAVIGATION SYSTEM / MENU LINKS*/
@@ -38,39 +43,4 @@ h1{
     /* for each item when hovered over with mouse*/
 	background-color:rgb(187, 146, 240);
     border-radius: 20px;
-}
-
-/* GENERAL TEXT CODE */
-.GeneralText p{
-    text-align: center;
-    margin: 20px;
-}
-
-/*CONTACT FORM CODE */
-
-.ContactForm{
-    /*Code for the whole form*/
-    text-align: center;
-    margin: 20px
-}
-
-.ContactForm form{
-    background: transparent;
-}
-
-.inputField{
-    /*Input fields*/
-    height: 45px;
-    width: 800px;
-    margin: 20px;
-    font-size: 20px;
-    background:transparent;
-    border: none;
-    border-bottom: 2px solid black;
-    color: black
-}
-
-.submit{
-    height: 10px;
-    width: 20px;
 }

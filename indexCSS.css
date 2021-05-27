@@ -4,42 +4,15 @@
 }
 
 header {
-	background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(236, 158, 255, 0.8));
-	height: 80vh;
-	-webkit-background-size: cover;
-	background-size: cover;
+	height: 60vh;
 	background-position: center center;
 	position: relative;
 }
 
-.HomePageOverview{
-	margin: 30px;
-	text-align: center;
-}
-
-/* NAVIGATION SYSTEM / MENU LINKS*/
-
-.navigationMenu {
-    /* for the overall menu */
-    margin-top: 30px;
-    text-align: center;
-}
-
-.navigationMenu li {
-    /* for each item...*/
-	display: inline-block; /*Lines up across from left to right*/
-    margin-left: 20px;
-    padding: 5px 20px;
-}
-
-.navigationMenu li a{
-    /* for each item when hovered over with mouse*/
-    padding: 5px 20px;
-}
-
-.navigationMenu li a:hover {
-    /* for each item when hovered over with mouse*/
-	background-color:rgb(187, 146, 240);
+body{
+	background-image: url("homebg2.png");
+	background-position: center;
+	background-size: cover;
 }
 
 /* WELCOME TEXT CODE */
@@ -62,6 +35,7 @@ header {
 .welcomeText a{
 	/* For only the link */
 	border: 2px solid rgb(2, 2, 2);
+	border-radius: 20px;
 	color: rgb(2, 2, 2);
 	padding: 10px 25px;
 	text-decoration: none;
@@ -69,7 +43,6 @@ header {
 	font-size: 14px;
 	margin-top: 20px;
 	display: inline-block;
-	
 }
 
 .welcomeText a:hover {

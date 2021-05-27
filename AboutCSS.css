@@ -3,6 +3,22 @@
 	padding: 0;
 }
 
+h1{
+	text-align: center;
+	margin: 20px;
+}
+
+p{
+	text-align: center;
+	margin: 20px;
+}
+
+body{
+    background-image: url("general_bg.png");
+	background-position: center;
+	background-size: cover;
+}
+
 /* NAVIGATION SYSTEM / MENU LINKS*/
 
 .navigationMenu {
@@ -26,4 +42,5 @@
 .navigationMenu li a:hover {
     /* for each item when hovered over with mouse*/
 	background-color:rgb(187, 146, 240);
+	border-radius: 20px;
 }
