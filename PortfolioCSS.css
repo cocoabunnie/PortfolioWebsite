@@ -50,17 +50,30 @@ body{
 
 .Portfolio {
 	display: grid;
+	column-count: 3;
 	margin-left: 30px;
 	margin-right: 30px;
+	align-self: center;
 }
 
 /*Game Listings*/
 .GamesCategoryTitle{
     grid-column-start: 1;
-	grid-column-end: 1;
+	grid-column-end: 3;
 	grid-row-start: 1;
 	grid-row-end: 1;
+	column-span: 3;
     font-weight: bold;
+    font-size: 20px;
+}
+
+.GamesCategoryTitle p{
+    grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	column-span: 3;
+    font-weight: normal;
     font-size: 20px;
 }
 
@@ -86,24 +99,96 @@ body{
 	grid-row-start: 2;
 	grid-row-end: 2;
     margin: 20px;
+	margin-bottom: 100px;
 }
 
 /*App Listings*/
 .AppsCategoryTitle{
     grid-column-start: 1;
-	grid-column-end: 1;
+	grid-column-end: 3;
 	grid-row-start: 3;
 	grid-row-end: 3;
+	column-span: 3;
     font-weight: bold;
     font-size: 20px;
+}
+
+.AppsCategoryTitle p{
+    grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	column-span: 3;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.MeetUpApp{
+    grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 4;
+	grid-row-end: 4;
+    margin: 20px;
+}
+
+.VirtualCookbook{
+    grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 4;
+	grid-row-end: 4;
+    margin: 20px;
+}
+
+.TipCalculator{
+    grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 4;
+    margin: 20px;
+	margin-bottom: 100px;
 }
 
 /*Software Listings*/
 .SoftwareCategoryTitle{
     grid-column-start: 1;
-	grid-column-end: 1;
+	grid-column-end: 3;
 	grid-row-start: 5;
 	grid-row-end: 5;
+	column-span: 3;
     font-weight: bold;
     font-size: 20px;
+}
+
+.SoftwareCategoryTitle p{
+    grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 5;
+	column-span: 3;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.BasicCalculator{
+    grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 6;
+	grid-row-end: 6;
+    margin: 20px;
+}
+
+.AdventureGame{
+    grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 6;
+	grid-row-end: 6;
+    margin: 20px;
+}
+
+.TicTacToe{
+    grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 6;
+	grid-row-end: 6;
+    margin: 20px;
 }
