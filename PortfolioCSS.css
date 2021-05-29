@@ -3,13 +3,26 @@
 	padding: 0;
 }
 
-h1{
+header{
+	height: 50vh;
 	text-align: center;
-	margin: 20px;
+	background-image: url(Art/Backgrounds/headerbgblue.jpg);
+}
+
+header h1{
+	text-align: center;
+	padding-top: 25vh;
+	font-size: 50px;
+	color: rgb(90, 89, 89);
+}
+
+header .navigationMenu{
+	float: right;
 }
 
 body{
-    background-image: url("Art/Backgrounds/general_bg.png");
+    /*background-image: url(Art/Backgrounds/homebg2.png);*/
+	background-color: white;
 	background-position: center;
 	background-size: cover;
 }
@@ -31,19 +44,20 @@ body{
 .navigationMenu li {
     /* for each item...*/
 	display: inline-block; /*Lines up across from left to right*/
-    margin-left: 20px;
-    padding: 5px 20px;
+    margin-left: 10px;
+    padding: 5px 10px;
 }
 
 .navigationMenu li a{
-    /* for each item when hovered over with mouse*/
-    padding: 5px 20px;
+    /* for each item */
+    padding: 5px 10px;
+	text-decoration: none;
 }
 
 .navigationMenu li a:hover {
     /* for each item when hovered over with mouse*/
-	background-color:rgb(187, 146, 240);
-    border-radius: 20px;
+	background-color:white;
+    border-radius: 10px;
 }
 
 /*PORTFOLIO*/
@@ -55,6 +69,50 @@ body{
 	margin-right: 30px;
 	align-self: center;
 }
+
+.Section1 { /* Game Section Container */
+	display: grid;
+	grid-row-start: 1;
+	margin-left: 30px;
+	margin-right: 30px;
+	align-self: center;
+	column-span: 3;
+
+	padding: 10px;
+	margin: 20px;
+	background-color: rgb(205, 243, 255);
+	border-radius: 20px;
+}
+
+.Section2 { /* Mobile App Section Container */
+	display: grid;
+	grid-row-start: 2;
+	margin-left: 30px;
+	margin-right: 30px;
+	align-self: center;
+	column-span: 3;
+
+	padding: 10px;
+	margin: 20px;
+	background-color: rgb(250, 223, 249);
+	border-radius: 20px;
+}
+
+.Section3 { /* Software Section Container */
+	display: grid;
+	grid-row-start: 3;
+	margin-left: 30px;
+	margin-right: 30px;
+	align-self: center;
+	column-span: 3;
+
+	padding: 10px;
+	margin: 20px;
+	background-color: rgb(250, 223, 249);
+	border-radius: 20px;
+}
+
+
 
 /*Game Listings*/
 .GamesCategoryTitle{

@@ -6,51 +6,55 @@
 
         <!-- Linking the CSS file for styling-->
         <link rel="stylesheet" href="HomeCSS.css">
-
-        <h1>Brianna's Corner</h1>
     </head>
 
     <body>
 
-        <ul id = "navigationBar" class="navigationMenu">
-            <!-- Menu links setup -->
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="Portfolio.html">Portfolio</a></li>
-            <li><a href="About.html">About Me</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
+        <header>
+            <ul id = "navigationBar" class="navigationMenu">
+                <!-- Menu links setup -->
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
 
-        <div class="HomePageOverview">
-            <p>Hello!<br>
-            I am Brianna Duvivier, and I am currently pursuing my Bachelors of Science in Computer Science.<br>
-            This webpage is my portfolio, or my little corner of the internet where I can showcase my skills.<br>
-            Thanks for visiting, and feel free to look around!<br>
-            <br>
-            Brianna
-            </p>
-        </div>
+            <h1>WELCOME</h1>
+        </header>
 
-        <div class="StartPrompt">
-            <p>Where would you like to begin?</p>
+        
+
+        <div class="HomepageLayout">
+            <div class="Introduction">
+                <img src="Art/Home/flower.jpeg">
+
+                <p>Hello!<br>
+                I am Brianna Duvivier, and I am currently pursuing my Bachelors of Science in Computer Science.<br>
+                This webpage is my portfolio, or my little corner of the internet where I can showcase my skills.<br>
+                Thanks for visiting, and feel free to look around!<br>
+                <br>
+                Brianna
+                </p>
+            </div>
+
+            <div class=PageLinks>
+                <!-- Welcome Grid Setup with CSS Grid -->
+                <div class="portfolioItem">
+                    <a href="Portfolio.html">Portfolio</a>
+                </div>
+
+                <div class="aboutItem">
+                    <a href="About.html">About Me</a>
+                </div>
+
+                <div class="contactItem">
+                    <a href="Contact.html">Contact</a>
+                </div>
+            </div>
         </div>
 
         <div class="welcomeGrid">
-            <!-- Welcome Grid Setup with CSS Grid -->
-            <div class="homeItem">
-                <a href="Home.html">Home</a>
-            </div>
-
-            <div class="portfolioItem">
-                <a href="Portfolio.html">Portfolio</a>
-            </div>
-
-            <div class="aboutItem">
-                <a href="About.html">About Me</a>
-            </div>
-
-            <div class="contactItem">
-                <a href="Contact.html">Contact</a>
-            </div>
+            
         </div>
 
     </body>

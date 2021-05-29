@@ -6,25 +6,29 @@
 
         <!-- Linking the CSS file for styling-->
         <link rel="stylesheet" href="PortfolioCSS.css">
-
-        <ul class="navigationMenu">
-            <!-- Menu links setup -->
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="Portfolio.html">Portfolio</a></li>
-            <li><a href="About.html">About Me</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
         
-        <h1>Portfolio</h1>
+        
     </head>
 
     <body>
-        
+        <header>
+            <ul class="navigationMenu">
+                <!-- Menu links setup -->
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+
+            <h1>Portfolio</h1>
+        </header>
+
         <p class="Intro">Here is a page to showcase the work I'm most proud of. <br>
             You can also find links to my GitHub portfolio/projects if you's like to clone/test anything.</p>
 
         <div class = Portfolio>
             <!--GAMES-->
+            <div class = Section1>
                 <div class=GamesCategoryTitle>
                     <h3>Games</h3>
                     <p>Making indie games are a pass time of mine. I use Godot, Unity, and Gamemaker.<br>
@@ -48,8 +52,10 @@
                     <img src="Art/Portfolio/kittydroppic.PNG" alt="Kitty Drop" width="200" height="160"><br>
                     <a href="https://lilaco.itch.io/kitty-drop">Kitty Drop</a>
                 </div>
+            </div>
 
             <!--APPS-->
+            <div class = Section2>
                 <div class=AppsCategoryTitle>
                     <h3>Mobile Apps</h3>
                     <p>App development is something I highly enjoy. At the moment, all of these apps are for Android,<br>
@@ -71,8 +77,10 @@
                     <img src="Art/Portfolio/tipcalculatorpic.png" alt="TipCalculator" width="200" height="160"><br>
                     <a href="https://lilaco.itch.io/kitty-drop">The Tip Calculator</a>
                 </div>
+            </div>
 
             <!--SOFTWARE-->
+            <div class=Section3>
                 <div class=SoftwareCategoryTitle>
                     <h3>Software</h>
                     <p>These are some simple software I've made using eclipse and Java.<br>
@@ -94,6 +102,7 @@
                     <img src="Art/Portfolio/tictactoepic.png" alt="TicTacToe" width="200" height="160"><br>
                     <a href="https://lilaco.itch.io/kitty-drop">Tic Tac Toe</a>
                 </div>
+            </div>
 
         </div>
     </body>
