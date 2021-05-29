@@ -136,6 +136,9 @@ body{
 }
 
 .TippyTheTurtle{
+	position: relative;
+	height: 160px;
+	width: 200px;
     grid-column-start: 1;
 	grid-column-end: 1;
 	grid-row-start: 2;
@@ -143,7 +146,30 @@ body{
     margin: 20px;
 }
 
+.TippyDescription {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(220, 242, 255, 0.72);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+
+	/* transition effect */
+	transition: opacity .2s, visibility .2s;
+}
+
+.TippyTheTurtle:hover .TippyDescription {
+	opacity: 1;
+	visibility: visible;
+}
+
 .ValentinesDayBlues{
+	position: relative;
+	height: 160px;
+	width: 200px;
     grid-column-start: 2;
 	grid-column-end: 2;
 	grid-row-start: 2;
@@ -151,13 +177,53 @@ body{
     margin: 20px;
 }
 
+.VDayDescription {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(220, 242, 255, 0.72);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+
+	/* transition effect */
+	transition: opacity .2s, visibility .2s;
+}
+
+.ValentinesDayBlues:hover .VDayDescription {
+	opacity: 1;
+	visibility: visible;
+}
+
 .KittyDrop{
+	position: relative;
     grid-column-start: 3;
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 2;
     margin: 20px;
-	margin-bottom: 100px;
+}
+
+.KittyDescription {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(220, 242, 255, 0.72);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+
+	/* transition effect */
+	transition: opacity .2s, visibility .2s;
+}
+
+.KittyDrop:hover .KittyDescription {
+	opacity: 1;
+	visibility: visible;
 }
 
 /*App Listings*/
