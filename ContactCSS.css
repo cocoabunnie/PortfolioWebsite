@@ -14,7 +14,24 @@ h1{
     padding: 10px;
 }
 
+header{
+	height: 70vh;
+	text-align: center;
+	background-image: url(Art/Backgrounds/background.jpg);
+	background-position: center;
+}
+
+header h1{
+	text-align: center;
+	padding-top: 25vh;
+	font-size: 50px;
+	color: rgb(90, 89, 89);
+}
+
 /* NAVIGATION SYSTEM / MENU LINKS*/
+header .navigationMenu{
+	float: right;
+}
 
 .navigationMenu {
     /* for the overall menu */
@@ -32,11 +49,12 @@ h1{
 .navigationMenu li a{
     /* for each item when hovered over with mouse*/
     padding: 5px 20px;
+    text-decoration: none;
 }
 
 .navigationMenu li a:hover {
     /* for each item when hovered over with mouse*/
-	background-color:rgb(187, 146, 240);
+	background-color:white;
     border-radius: 20px;
 }
 
@@ -70,7 +88,21 @@ h1{
     color: black
 }
 
-.submit{
-    height: 10px;
-    width: 20px;
+.ContactForm .Buttons input{
+    /* Buttons */
+    height: 30px;
+    width: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.ContactForm .Buttons{
+    float: left;
+    margin-left: 250px;
+    margin-bottom: 300px;
 }

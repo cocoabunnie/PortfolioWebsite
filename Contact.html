@@ -6,20 +6,21 @@
 
         <!-- Linking the CSS file for styling-->
         <link rel="stylesheet" href="ContactCSS.css">
-
-        <ul class="navigationMenu">
-            <!-- Menu links setup -->
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="Portfolio.html">Portfolio</a></li>
-            <li><a href="About.html">About Me</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
-
-        <!-- Header -->
-        <h1>Contact</h1>
     </head>
 
     <body>
+
+        <header>
+            <ul class="navigationMenu">
+                <!-- Menu links setup -->
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+
+            <h1>CONTACT ME</h1>
+        </header>
 
         <div class = "GeneralText">
             <p>You can contact me at duvivierbri@gmail.com</p>
@@ -33,8 +34,10 @@
                 <textarea class="inputField" name="message" placeholder="Your Message"></textarea><br>
 
                 <!-- Buttons -->
-                <input type="submit" class = "submitButton" value="Send">
-                <input type="reset" class = "clearButton" value="Clear">
+                <div class=Buttons>
+                    <input type="submit" class = "submitButton" value="Send">
+                    <input type="reset" class = "clearButton" value="Clear">
+                </div>
             </form>
         </div>
     </body>

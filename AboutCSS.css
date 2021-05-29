@@ -8,6 +8,20 @@ h1{
 	margin: 20px;
 }
 
+header{
+	height: 70vh;
+	text-align: center;
+	background-image: url(Art/Backgrounds/background.jpg);
+	background-position: center;
+}
+
+header h1{
+	text-align: center;
+	padding-top: 25vh;
+	font-size: 50px;
+	color: rgb(90, 89, 89);
+}
+
 p{
 	text-align: center;
 	margin: 20px;
@@ -20,11 +34,15 @@ body{
 }
 
 /* NAVIGATION SYSTEM / MENU LINKS*/
+header .navigationMenu{
+	float: right;
+}
 
 .navigationMenu {
     /* for the overall menu */
     margin-top: 30px;
     text-align: center;
+	padding: 10px;
 }
 
 .navigationMenu li {
@@ -37,10 +55,11 @@ body{
 .navigationMenu li a{
     /* for each item when hovered over with mouse*/
     padding: 5px 20px;
+	text-decoration: none;
 }
 
 .navigationMenu li a:hover {
     /* for each item when hovered over with mouse*/
-	background-color:rgb(187, 146, 240);
+	background-color: white;
 	border-radius: 20px;
 }
