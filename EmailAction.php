@@ -13,6 +13,6 @@ $body_message = "New Message: $message";
 $headers = "From: $fromemail \r\n";
 $headers .= "Reply-To: $email \r\n";
 
-$mail_status = mail($myemail, $subject, $body_message, $headers);
+mail($myemail, $subject, $body_message, $headers);
 
 ?>
