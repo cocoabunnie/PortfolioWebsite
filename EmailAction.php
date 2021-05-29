@@ -4,14 +4,14 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 
-$mail_to = 'duvivierbri@gmail.com';
-$subject = 'Hey! '.$name." sent you a message through your portfolio site!";
+$myemail = 'duvivierbri@gmail.com';
+$subject = "New email!";
 
-$body_message = 'Message: '.$message;
+$body_message = "New Message: $message";
 
-$headers = 'From: '.$email."\r\n";
-$headers .= 'Reply-To: '.$email."\r\n";
+$headers = "From: $email \r\n";
+$headers .= "Reply-To: $email \r\n";
 
-$mail_status = mail($mail_to, $subject, $body_message, $headers);
+$mail_status = mail($myemail, $subject, $body_message, $headers);
 
 ?>
