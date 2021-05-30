@@ -3,9 +3,15 @@
 	padding: 0;
 }
 
+body{
+	background-color:white;
+	background-position: center;
+	background-size: cover;
+}
+
 h1{
     text-align: center;
-    margin: 20px;
+    padding: 10px;
 }
 
 header{
@@ -31,33 +37,28 @@ header .navigationMenu{
     /* for the overall menu */
     margin-top: 30px;
     text-align: center;
-	padding: 10px;
 }
 
 .navigationMenu li {
     /* for each item...*/
 	display: inline-block; /*Lines up across from left to right*/
-    margin-left: 20px;
-    padding: 5px 20px;
+    margin-left: 10px;
+    padding: 5px 10px;
 }
 
 .navigationMenu li a{
     /* for each item */
-    padding: 5px 20px;
+    padding: 5px 10px;
 	text-decoration: none;
 }
 
 .navigationMenu li a:hover {
     /* for each item when hovered over with mouse*/
 	background-color:white;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
-body{
-	background-color:white;
-	background-position: center;
-	background-size: cover;
-}
+
 
 .HomepageLayout {
 	display: grid;

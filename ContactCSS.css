@@ -28,7 +28,7 @@ header h1{
 	color: rgb(90, 89, 89);
 }
 
-/* NAVIGATION SYSTEM / MENU LINKS*/
+/* NAVIGATION SYSTEM/MENU LINKS */
 header .navigationMenu{
 	float: right;
 }
@@ -42,20 +42,20 @@ header .navigationMenu{
 .navigationMenu li {
     /* for each item...*/
 	display: inline-block; /*Lines up across from left to right*/
-    margin-left: 20px;
-    padding: 5px 20px;
+    margin-left: 10px;
+    padding: 5px 10px;
 }
 
 .navigationMenu li a{
-    /* for each item when hovered over with mouse*/
-    padding: 5px 20px;
-    text-decoration: none;
+    /* for each item */
+    padding: 5px 10px;
+	text-decoration: none;
 }
 
 .navigationMenu li a:hover {
     /* for each item when hovered over with mouse*/
 	background-color:white;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 /* GENERAL TEXT CODE */
