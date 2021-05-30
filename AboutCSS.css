@@ -22,11 +22,6 @@ header h1{
 	color: rgb(90, 89, 89);
 }
 
-p{
-	text-align: center;
-	margin: 20px;
-}
-
 body{
     background-color: white;
 	background-position: center;
@@ -62,4 +57,14 @@ header .navigationMenu{
     /* for each item when hovered over with mouse*/
 	background-color: white;
 	border-radius: 20px;
+}
+
+.myStory{
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	padding: 50px;
+	border-radius: 20px;
+	background-color: pink;
 }

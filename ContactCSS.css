@@ -76,33 +76,45 @@ header .navigationMenu{
     background: transparent;
 }
 
-.inputField{
+.inputFieldSubject{
     /*Input fields*/
     height: 45px;
     width: 800px;
     margin: 20px;
     font-size: 20px;
-    background:transparent;
+    background: transparent;
     border: none;
     border-bottom: 2px solid black;
     color: black
 }
 
-.ContactForm .Buttons input{
+.inputFieldMessage{
+    /*Input fields*/
+    height: 400px;
+    width: 800px;
+    margin: 20px;
+    font-size: 20px;
+    background:transparent;
+    border: 2px solid black;
+    color: black
+}
+
+.ContactForm button{
     /* Buttons */
     height: 30px;
-    width: 100px;
+    width: 140px;
+    margin-top: 20px;
+    margin-bottom: 80px;
     padding-right: 20px;
     padding-left: 20px;
     margin-right: 10px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     border: 2px solid black;
     background-color: white;
 }
 
-.ContactForm .Buttons{
-    float: left;
-    margin-left: 250px;
-    margin-bottom: 300px;
+.ContactForm button:hover{
+    color: pink;
+    border-color: pink;
 }

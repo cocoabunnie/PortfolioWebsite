@@ -23,17 +23,17 @@
         </header>
 
         <div class = "GeneralText">
-            <p>You can contact me at duvivierbri@gmail.com</p>
+            <p>I'm always available for inquiries! If you would like to contact me, you can contact me at duvivierbri@gmail.com<br>
+            Or you can email me directly by filling out the form below! Click "Send Email" once you're done to send the message.</p>
         </div>
 
         <div class = "ContactForm">
             <form id=ContactForm method="post" action="">
                 <!-- Fill out form to contact me -->
-                <input type="text" class="inputField" name="name" placeholder="Your Name" required><br>
-                <input type="text" class="inputField" name="email" placeholder="Your E-Mail" required><br>
-                <textarea class="inputField" name="message" placeholder="Your Message" required></textarea><br>
-
-                <button class="sendmessage" onclick="window.open('http://www.google.com');">Click Me</button>
+                <input id=yourSubject type="text" class="inputFieldSubject" placeholder="Your Subject" required><br>
+                <textarea id=yourMessage class="inputFieldMessage" placeholder="Your Message" required></textarea><br>
+                
+                <button class="sendmessage" onclick="parent.location='mailto:duvivierbri@gmail.com?subject=' + yourSubject.value + '&body=' + yourMessage.value ">Send Email</button>
             </form>
         </div>
     </body>
